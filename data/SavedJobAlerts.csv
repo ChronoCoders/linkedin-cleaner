@@ -1,0 +1,2 @@
+ALERT_PARAMETERS,QUERY_CONTEXT,SAVED_SEARCH_ID
+"{channels=[EMAIL, INAPP_NOTIFICATION], frequency=DAILY}","{keywords=chief executive officer, workflowContext={savedSearch=urn:li:savedSearch:808486704}, searchLocation={com.linkedin.jobs.matching.SpecificSearchLocation={geoLocations=[{geo=urn:li:geo:102571732, radiusInKms=40.23361244731409}]}}, facets={organizations={selectedValues=[urn:li:organization:582324]}}}",808486704

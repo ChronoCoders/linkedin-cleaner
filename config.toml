@@ -1,0 +1,76 @@
+[filters]
+unwanted_keywords = [
+    "marketing", "advertisement", "sales", "finance",
+    "insurance", "real estate",
+    "recruitment", "recruiter", "hr", "human resources",
+    "growth hacker", "life coach", "motivational speaker",
+    "mlm", "network marketing", "forex", "crypto trading",
+    "looking for opportunities", "open to work", "seeking",
+    "job seeker", "actively looking", "career change",
+    "entry level", "fresher", "graduate seeking",
+    "influencer", "content creator", "social media manager",
+    "seo expert", "digital marketing", "affiliate marketing",
+    "dropshipping", "ecommerce guru", "amazon fba",
+    "business coach", "success coach", "mindset coach",
+    "entrepreneur at self", "ceo at stealth", "freelancer",
+    "virtual assistant", "data entry", "graphic designer",
+    "photographer", "videographer", "video editor",
+    "writer", "copywriter", "content writer",
+    "real estate agent", "property", "realtor",
+    "accountant", "bookkeeper", "tax consultant",
+    "lawyer", "attorney", "legal",
+    "doctor", "physician", "medical",
+    "nurse", "healthcare", "pharma",
+    "teacher", "educator", "tutor",
+    "student", "intern", "trainee",
+    "government", "government agency", "public sector",
+    "law enforcement", "police", "officer",
+    "military", "soldier", "army", "navy", "air force",
+    "security guard", "bodyguard", "private security",
+    "civil servant", "bureaucrat", "ministry",
+    "retail", "customer service", "cashier",
+    "hospitality", "hotel", "restaurant", "waiter",
+    "driver", "delivery", "logistics coordinator",
+    "admin", "administrative", "receptionist",
+    "call center", "customer support", "helpdesk",
+    "fashion", "beauty", "makeup artist", "stylist",
+    "fitness", "personal trainer", "yoga instructor",
+    "event planner", "wedding planner", "coordinator",
+    "travel agent", "tourism", "tour guide",
+    "journalism", "reporter", "news anchor",
+    "pr specialist", "public relations", "communications manager",
+    "ngo", "non profit", "charity", "volunteer",
+    "agriculture", "farming", "farmer",
+    "construction", "contractor", "builder",
+    "manufacturing", "factory", "production worker",
+    "business development", "financial advisor"
+]
+
+relevant_keywords = [
+    "blockchain", "rust", "substrate", "polkadot", "web3",
+    "smart contract", "pallet", "runtime", "consensus",
+    "crypto", "cryptocurrency", "defi", "dapp", "dapps",
+    "distributed systems", "cryptography", "zero knowledge",
+    "zk", "zkp", "privacy", "protocol",
+    "developer", "engineer", "software", "programmer",
+    "backend", "systems programming", "low level",
+    "node", "validator", "infrastructure",
+    "solidity", "ethereum", "cosmos", "near",
+    "web3 developer", "blockchain developer", "rust developer",
+    "substrate developer", "protocol engineer",
+    "fintech", "payment systems", "digital payments",
+    "payment gateway", "cryptocurrency payment",
+    "decentralized applications", "blockchain solutions",
+    "web3 infrastructure", "blockchain technology",
+    "cto", "ceo", "founder", "co-founder",
+    "tech lead", "technical architect", "engineering lead",
+    "blockchain consultant", "tokenization", "nft", "ai"
+]
+
+[automation]
+delay_min_ms = 2000
+delay_max_ms = 5000
+batch_size = 10
+pause_between_batches_ms = 30000
+daily_limit = 5
+dry_run = false
