@@ -48,11 +48,11 @@ impl BrowserAutomation {
             
             match self.remove_single_connection(&tab, &conn.url) {
                 Ok(_) => {
-                    println!("✓ Successfully removed");
+                    println!("Successfully removed");
                     removed += 1;
                 }
                 Err(e) => {
-                    println!("✗ Failed: {}", e);
+                    println!("Failed: {}", e);
                 }
             }
             
@@ -87,7 +87,7 @@ impl BrowserAutomation {
         
         thread::sleep(Duration::from_secs(5));
         
-        println!("✓ Login successful");
+        println!("Login successful");
         Ok(())
     }
 
@@ -118,8 +118,8 @@ impl BrowserAutomation {
     }
 
     fn random_delay(&self) {
-        let mut rng = rand::thread_rng();
-        let delay = rng.gen_range(self.config.delay_min_ms..=self.config.delay_max_ms);
+        let mut rng = rand::rng();
+        let delay = rng.random_range(self.config.delay_min_ms..=self.config.delay_max_ms);
         thread::sleep(Duration::from_millis(delay));
     }
 }
