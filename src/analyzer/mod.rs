@@ -1,5 +1,5 @@
-pub mod scorer;
 pub mod reporter;
+pub mod scorer;
 
-pub use scorer::{Scorer, AnalysisReport};
 pub use reporter::Reporter;
+pub use scorer::{AnalysisReport, Scorer};
