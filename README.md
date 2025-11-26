@@ -64,3 +64,23 @@ cargo run --release -- remove --input Connections.csv --email "your@email.com" -
 ## License 
  
 MIT 
+ 
+## ?? Important Notice 
+ 
+**Browser automation is experimental and not recommended for production use.** 
+ 
+LinkedIn's Terms of Service prohibit automated access and scraping. Using the automation features may result in: 
+ 
+- Account suspension or permanent ban 
+- CAPTCHA challenges 
+- Rate limiting 
+- Legal action 
+ 
+**Recommended Usage:** 
+ 
+1. Use this tool for **analysis and filtering only** 
+2. Export the filtered connection list to CSV 
+3. Use LinkedIn's official interface to remove connections manually 
+4. Spread removals over days/weeks to avoid detection 
+ 
+The automation code is provided for **educational purposes only**. Use at your own risk. 
