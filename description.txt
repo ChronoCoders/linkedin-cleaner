@@ -1,1 +1,0 @@
-A Rust-based tool for intelligent LinkedIn connection management and filtering 
