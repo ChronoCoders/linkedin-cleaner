@@ -1,16 +1,16 @@
 # NetPrune 
  
-?? **Smart LinkedIn Connection Management Tool** 
+Smart LinkedIn Connection Management Tool 
  
 A Rust-based tool to analyze and manage your LinkedIn network using intelligent keyword filtering. 
  
 ## Features 
  
-- ?? CSV parsing and analysis of LinkedIn connections 
-- ?? Keyword-based filtering for connection management 
-- ?? Export filtered results to CSV 
-- ?? Browser automation (experimental - use at your own risk) 
-- ?? Configurable filters and safety features 
+- CSV parsing and analysis of LinkedIn connections 
+- Keyword-based filtering for connection management 
+- Export filtered results to CSV 
+- Browser automation (experimental - use at your own risk) 
+- Configurable filters and safety features 
  
 ## Installation 
  
@@ -22,13 +22,13 @@ cargo build --release
  
 ### 1. Export Your LinkedIn Connections 
  
-1. Go to LinkedIn Settings & Privacy 
-2. Data Privacy > Get a copy of your data 
-3. Select "Connections" and download CSV 
+1. Go to LinkedIn Settings and Privacy 
+2. Data Privacy - Get a copy of your data 
+3. Select Connections and download CSV 
  
 ### 2. Configure Filters 
  
-Copy `config.example.toml` to `config.toml` and customize keywords: 
+Copy config.example.toml to config.toml and customize keywords: 
  
 ```toml 
 [filters] 
@@ -47,22 +47,22 @@ cargo run --release -- analyze --input Connections.csv
 cargo run --release -- export --input Connections.csv --output unwanted.csv 
 ``` 
  
-## ?? Important Notice 
+## Important Notice 
  
-**Browser automation is experimental and not recommended.** 
+Browser automation is experimental and not recommended. 
  
-LinkedIn's Terms of Service prohibit automated access. Using automation may result in: 
+LinkedIn Terms of Service prohibit automated access. Using automation may result in: 
  
 - Account suspension or ban 
 - CAPTCHA challenges 
 - Rate limiting 
  
-**Recommended Workflow:** 
+Recommended Workflow: 
  
-1. Use NetPrune for analysis and filtering ? 
-2. Export filtered list to CSV ? 
-3. Remove connections manually via LinkedIn ? 
-4. Spread removals over days/weeks ? 
+1. Use NetPrune for analysis and filtering 
+2. Export filtered list to CSV 
+3. Remove connections manually via LinkedIn 
+4. Spread removals over days or weeks 
  
 ## Configuration 
  
